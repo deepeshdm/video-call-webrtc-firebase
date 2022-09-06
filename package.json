@@ -1,0 +1,18 @@
+{
+  "name": "webrtcapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "@firebase/firestore": "^3.4.15",
+    "firebase": "^9.9.4"
+  }
+}

@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> WebRTC App </title>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body>
+
+    <h2 align="center" style="font-family:Arial;font-size:35px;margin-bottom:40px;margin-top:40px;color:#ffffff">
+      Realtime Video Call (WebRTC + Firebase) </h2>
+    <label id="client-label" style="margin-left:350px;font-family:Arial;color:#ffffff"> 
+      Your Webcam </label>
+    <label id="receiver-label" style="margin-left:610px;font-family:Arial;color:#ffffff"> 
+      Remote Webcam </label>
+
+    <div align="center">
+    <video id="local-video" autoplay> </video>
+    <video id="remote-video" autoplay> </video>
+    </div>
+
+      <div>
+        <input id="clientname-input" placeholder="Your username" maxlength="50">
+        <button class="input-button" id="start-webcam-btn"> Start Webcam </button>
+        <span id="user-input"> 
+          <input id="username-input" placeholder="Enter an username" maxlength="50">
+          <button id="call-btn"> Call </button>
+        </span>
+
+        <div id="info" align="center"> Developed by (github.com/deepeshdm) </div>
+      </div>
+
+  </body>
+</html>
+
