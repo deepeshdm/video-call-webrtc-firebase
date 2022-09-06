@@ -1,5 +1,5 @@
 ## Video Call Application (WebRTC+Firebase)
-An online video call application based on WebRTC with Firebase as signaling service.
+An online video call application based on WebRTC with Firebase as signaling service. We use the firebase realtime database and utilize it's event driven updates to exchange session descriptions among the browsers and update their local/remote sdps.
 
 **🔥 Official Website :** https://video-call-webrtc.vercel.app/
 
