@@ -37,5 +37,5 @@ const firebaseConfig = {
 npm run dev
 ```
 
-NOTE : For the video call to occur effectively both the users must be online i.e connected to internet with their webcam feeds appearing on the screen. 
+NOTE : For the video call to occur effectively both the users (client and receiver) must be online i.e connected to internet with their webcam feeds appearing on the screen. 
 
